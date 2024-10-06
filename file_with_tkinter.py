@@ -24,6 +24,10 @@ about_tkinter["text"] = "Standard Python interface to the Tk GUI toolkit shipped
 greetings.pack()
 about_tkinter.pack()
 
+
 root.mainloop()
+
+
+123
 
 
