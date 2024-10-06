@@ -1,6 +1,7 @@
 import tkinter as tk
 from PIL import ImageTk, Image
 
+
 root = tk.Tk()
 root.title("Greetings willage people!!!!")
 root.geometry("1000x600")
