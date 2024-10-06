@@ -25,3 +25,6 @@ greetings.pack()
 about_tkinter.pack()
 
 root.mainloop()
+
+
+#dupa jasiu
