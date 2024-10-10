@@ -27,12 +27,14 @@ def open_and_clean_file():
 
 # Setup tkinter window
 root = tk.Tk()
-root.title("File Cleaner")
-root.geometry("300x100")
+root.title("HTML cleaner")
+root.geometry("500x200")
 
 # Button to trigger the file open and clean process
-open_file_btn = tk.Button(root, text="Open and Clean File", command=open_and_clean_file)
-open_file_btn.pack(pady=20)
+open_file_btn = tk.Button(root, text="Open and Clean File",
+                          font=("Arial", 18),
+                          command=open_and_clean_file)
+open_file_btn.pack(pady=30)
 
 # Run the application
 root.mainloop()
