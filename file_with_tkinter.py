@@ -27,7 +27,7 @@ def time():
     time_label.config(text = string)
     time_label.after(1000, time)
     
-time_label = tk.Label(root, font=("calibri", 30, "bold"))
+time_label = tk.Label(root, font=("arial", 40, "bold"))
 image_label = tk.Label(root , image = photo, text = "Market Analysis", compound = "top")
 
 greetings.pack()
