@@ -30,3 +30,26 @@ print(type(my_variable))
 my_string = "Hello, world!"
 
 print(type(my_string))
+
+my_string = "Hello, world!"
+type(my_string)
+
+pi = 3.14
+
+type(pi)
+
+# Numbers
+my_integer = 10
+my_float = 3.14
+my_complex_number = 1 + 2j
+
+# Strings
+my_string = "Hello, world!"
+
+# Booleans
+boolean_true = True
+boolean_false = False
+
+# None
+none_value = None
+
