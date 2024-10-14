@@ -53,3 +53,13 @@ boolean_false = False
 # None
 none_value = None
 
+# Ask the user for their name and city
+name = input("Wie heißt du? ")
+city = input("In welcher Stadt wohnst du? ")
+
+# Greet the user
+print(f"Hallo {name} aus {city}, schön dich kennenzulernen!")
+
+empty_list = []
+print(f"Empty list: {empty_list}")
+
