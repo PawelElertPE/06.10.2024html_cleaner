@@ -68,3 +68,13 @@ student_scores_copy['Alice']['math'] = 100
 print(f"Alice's math score in original: {student_scores['Alice']['math']}")
 print(f"Alice's math score in copy: {student_scores_copy['Alice']['math']}")
 
+# List of stuent names
+student_names = ['Alice', 'Bob', 'Charlie', 'David']
+
+# List of student ages (in the same order as names)
+student_ages = [24, 21, 23, 22]
+
+# Create a dictionary with names as keys and ages as values
+student_dict = dict(zip(student_names, student_ages))
+
+print(student_dict)
