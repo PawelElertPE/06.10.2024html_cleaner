@@ -33,13 +33,31 @@
 
 
 # Accept the user's age as input
-age = int(input("Enter your age: "))
+# age = int(input("Enter your age: "))
 
-# Check if the age is within the eligible range
-if 20 <= age <= 65:
-    print("You are eligible for the position.")
+# # Check if the age is within the eligible range
+# if 20 <= age <= 65:
+#     print("You are eligible for the position.")
+# else:
+#     print("You are not eligible for the position.")
+
+# Ask the student to enter the marks scored in math
+score = int(input("Enter the marks scored in Math: "))
+
+# Determine the grade based on the score
+if score > 90:
+    grade = 'A'
+elif score > 75:
+    grade = 'B'
+elif score > 60:
+    grade = 'C'
 else:
-    print("You are not eligible for the position.")
+    grade = 'F'
+
+# Output the grade
+print(f"The grade is: {grade}")
+
+
 
 
 
