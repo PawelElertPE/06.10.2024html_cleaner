@@ -155,7 +155,11 @@ tesla_car.accelerate(12.5)
 
 tesla_car.brake(30)
 
-tesla_car.brake(-300)
+tesla_car.brake(300)
+
+tesla_car.accelerate(20)
+
+tesla_car.start()
 
 
 # # Example usage
